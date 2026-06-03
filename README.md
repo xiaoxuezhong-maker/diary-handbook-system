@@ -50,6 +50,17 @@ vault/
 - [旅行复盘模板](templates/travel-review.md)
 - [脱敏日记示例](examples/example-daily-note.md)
 
+## 插件要求
+
+基础版不需要安装第三方社区插件。下载后用 Obsidian 打开 `vault-template/` 就能开始写。
+
+模板库里已经配置了 Obsidian 核心功能：
+
+- Daily notes
+- Templates
+
+如果你想做进阶查询、任务汇总或自动化，可以按需安装社区插件。见 [插件安装说明](docs/plugins.md)。
+
 ## 使用方式
 
 ### 直接打开模板库
