@@ -23,6 +23,8 @@
 
 这个系统还保留了一个很有趣的小模块：占卜记录。它不是用来替代判断，而是把“我问了什么、抽到了什么、当下直觉是什么、第二天现实如何回应”记录下来。久了以后，你会看到自己的提问方式、担心模式和直觉变化。
 
+占卜也可以用于年度计划：先让 GPT 设计一组年度提问，再结合塔罗、雷诺曼或其他直觉工具回答问题；然后让 GPT 把大目标拆成可执行任务，再用月度运势或月份关键词把任务分配到各个月，最后手动检查是否有遗漏和长期任务。
+
 ## 目录结构
 
 ```text
@@ -48,11 +50,16 @@ vault/
 
 - [日记模板](templates/daily-note.md)
 - [周记模板](templates/weekly-note.md)
+- [年度计划模板](templates/annual-plan.md)
 - [月度复盘模板](templates/monthly-review.md)
+- [月度任务分配模板](templates/monthly-task-distribution.md)
 - [旅行计划模板](templates/travel-plan.md)
 - [旅行复盘模板](templates/travel-review.md)
 - [脱敏日记示例](examples/example-daily-note.md)
 - [占卜记录说明](docs/divination.md)
+- [每日明日运势卡片工作流](docs/daily-divination-card.md)
+- [年度目标占卜工作流](docs/annual-planning-with-divination.md)
+- [月末 AI 复盘工作流](docs/month-end-ai-review.md)
 
 ## 插件要求
 
