@@ -11,11 +11,22 @@
 
 ## 插件
 
-基础版不需要安装第三方社区插件。
+基础记录不需要安装第三方社区插件。
 
 这个模板库已经配置了 Obsidian 核心功能：
 
 - Daily notes
 - Templates
 
-如果你想做日历视图、任务汇总或自动索引，可以再按需安装 Calendar、Periodic Notes、Dataview、Tasks 或 Templater。
+如果只是每天写日记、手动勾选 `- [ ]` 待办，核心功能就够了。
+
+如果想整理跨页面待办、查询未完成任务、汇总月度任务池，建议安装：
+
+- Tasks
+- Dataview
+
+`01-日常手账/待办事项总览.md` 已经包含 Tasks 和 Dataview 的查询示例。安装插件后，它可以自动显示跨页面待办；它不会把待办复制到一个新笔记里。
+
+Microsoft To Do 同步、自动账单导入和本机财务解析脚本不包含在公开模板里。这个模板只提供结构、记录格式、AI 提示词和自动化说明。
+
+其他可选插件：Calendar、Periodic Notes、Templater。

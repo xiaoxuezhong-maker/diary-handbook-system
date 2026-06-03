@@ -38,6 +38,7 @@ vault/
     05 Diary/
     99 每日打卡/
     日常总览.md
+    待办事项总览.md
   02-家庭/
   03-旅行/
   04-资料/
@@ -54,6 +55,8 @@ vault/
 - [年度计划模板](templates/annual-plan.md)
 - [月度复盘模板](templates/monthly-review.md)
 - [月度任务分配模板](templates/monthly-task-distribution.md)
+- [待办事项总览模板](templates/todo-dashboard.md)
+- [财务汇总模板](templates/finance-summary.md)
 - [旅行计划模板](templates/travel-plan.md)
 - [旅行复盘模板](templates/travel-review.md)
 - [脱敏日记示例](examples/example-daily-note.md)
@@ -64,14 +67,23 @@ vault/
 
 ## 插件要求
 
-基础版不需要安装第三方社区插件。下载后用 Obsidian 打开 `vault-template/` 就能开始写。
+基础记录不需要安装第三方社区插件。下载后用 Obsidian 打开 `vault-template/` 就能开始写。
 
 模板库里已经配置了 Obsidian 核心功能：
 
 - Daily notes
 - Templates
 
-如果你想做进阶查询、任务汇总或自动化，可以按需安装社区插件。见 [插件安装说明](docs/plugins.md)。
+如果只是每天写日记、手动勾选 `- [ ]` 待办，核心功能就够了。
+
+如果想整理跨页面待办、查询未完成任务、汇总月度任务池，建议安装社区插件：
+
+- Tasks：更适合跨页面筛选和管理待办
+- Dataview：更适合自动汇总日记、任务池、标签和索引
+
+模板库里已经放了 `01-日常手账/待办事项总览.md`，安装插件后可以直接用里面的查询块来显示跨页面待办。它不会把原始待办复制到总览页，而是自动显示原始笔记里的任务。
+
+见 [插件安装说明](docs/plugins.md)。
 
 ## 使用方式
 
@@ -122,7 +134,17 @@ vault/
 
 ## 自动化
 
-这个系统可以和 Microsoft To Do、邮件同步、AI 摘要等流程连接。公开仓库里只建议放说明和伪代码，不建议放本机真实脚本或任何凭据。见 [自动化说明](automation/README.md)。
+这个系统可以和 Microsoft To Do、邮件同步、AI 摘要、财务汇总等流程连接。公开仓库里只放说明、模板和伪代码，不包含本机真实同步脚本或任何凭据。见 [自动化说明](automation/README.md)。
+
+当前公开版的功能边界：
+
+| 功能 | 当前包含吗 | 说明 |
+| --- | --- | --- |
+| 每日待办记录 | 包含 | 在日记里写 `- [ ]` 即可 |
+| 待办事项总览 | 包含模板 | 需要 Tasks 或 Dataview 才能自动显示跨页面待办 |
+| 自动把待办复制到单独笔记 | 不包含 | 更推荐查询显示，避免重复任务状态不一致 |
+| Microsoft To Do 联动 | 不包含真实脚本 | 只提供自动化思路，不公开 token、账号缓存或本机路径 |
+| 财务汇总 | 包含手动模板和 AI 工作流 | 不包含账单导入或本机 DataviewJS 解析器 |
 
 ## 支持作者
 
@@ -141,6 +163,8 @@ vault/
 - 可直接用 Obsidian 打开的 `vault-template/`
 - 独立 Markdown 模板
 - 脱敏示例
+- 待办事项总览模板
+- 财务汇总模板和工作流
 - 隐私检查清单
 - 自动化设计说明
 
