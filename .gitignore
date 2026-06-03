@@ -1,7 +1,10 @@
 # Obsidian private state
 .obsidian/workspace*
 .obsidian/cache/
+**/.obsidian/workspace*
+**/.obsidian/cache/
 .trash/
+**/.trash/
 
 # Attachments and media
 90 附件/
@@ -41,4 +44,3 @@ tmp/
 private/
 vault-private/
 真实日记/
-
