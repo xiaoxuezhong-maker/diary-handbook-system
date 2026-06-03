@@ -1,0 +1,44 @@
+# Obsidian private state
+.obsidian/workspace*
+.obsidian/cache/
+.trash/
+
+# Attachments and media
+90 附件/
+attachments/
+assets/private/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.mp4
+*.mov
+*.mp3
+*.wav
+*.pdf
+
+# Secrets and local auth
+.env
+.env.*
+*token*
+*secret*
+*cookie*
+*password*
+refresh-token.dpapi
+*.key
+*.pem
+
+# Local automation/cache files
+logs/
+cache/
+tmp/
+*.log
+*.sqlite
+*.db
+
+# Private vault copies
+private/
+vault-private/
+真实日记/
+
